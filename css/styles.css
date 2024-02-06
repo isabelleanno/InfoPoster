@@ -1,0 +1,26 @@
+body,
+div.container {
+  background-color: rgb(35, 30, 67) !important;
+}
+* {
+  color: white;
+}
+img {
+  align-self: center;
+  width: 50%;
+  border-radius: 8px;
+  border: 3px solid rgb(203, 9, 129);
+}
+a {
+  color: rgb(84, 207, 255) !important;
+}
+@media screen and (max-width: 700px) {
+  img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  img {
+    width: 100%;
+  }
+}
