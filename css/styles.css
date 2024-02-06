@@ -14,6 +14,10 @@ img {
 a {
   color: rgb(84, 207, 255) !important;
 }
+footer {
+  background-color: rgb(21, 15, 54);
+  padding: 12px;
+}
 @media screen and (max-width: 700px) {
   img {
     width: 80%;
